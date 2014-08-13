@@ -1,8 +1,12 @@
-tee: the gold standard
+tee: The Typing Master
 ========================
-This works with node.js.
-The tee program will take a standard in, then outputs it to both a standard out and a specified file. 
+You have 10 seconds to type as much as you can! 
+
+Run tee with:
+'node tee outputfile'
+
+It will echo what you type back every time you hit 'enter'. 
+Results will be output to specified file. 
 
 
-The syntax is: 
-node tee outputfile.txt
+You need to have node.js installed and the 'require('fs')' module. 
